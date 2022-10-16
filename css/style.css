@@ -89,7 +89,7 @@ header{
 }
  
 
-.backgropund-perfil{
+.background-perfil{
     background-image: url("../img/geral/backgroundPerfil.jpg");
     background-size: 100vw 100vh;
     transition:all 0.5s ease-in-out;
@@ -164,7 +164,7 @@ header{
 
 /* -------- portifolio */
 
-.backgropund-portifolio{
+.background-portifolio{
     background-image: url("../img/geral/background-reverso.jpg");
     background-size: 100% 100%;
     transition:all 0.5s ease-in-out;
@@ -252,7 +252,7 @@ img{
 /* ----------- */
 
 .container-form{
-    background-image: url("../img/geral/91657.jpg");
+    background-image: url(../img/geral/91657.jpg);
     background-size: 100vw 100vh;
     transition:all 0.5s ease-in-out;
     height: 100vh; 
