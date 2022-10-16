@@ -401,17 +401,18 @@ window.addEventListener( 'resize', function(){
 	ctx.font = opts.charSize + 'px Verdana';
 })
 
-// const img = document.querySelectorAll('.imgs')
 
-// img.forEach(imgs => {
-// 	imgs.addEventListener('click', () => {
-// 		remove_class(img)
-// 		imgs.classList.add('show_img')
-// 	})
-// })
+const images = document.querySelectorAll('.img')
 
-// function remove_class(img) {
-// 	img.forEach(imgs => {
-// 		img.classList.remove('show_img')
-// 	})
-// }
+images.forEach(img => {
+	img.addEventListener('click', () => {
+		remove_class(images)
+		img.classList.add('show_img')
+	})
+})
+
+function remove_class(images) {
+	images.forEach(img => {
+		img.classList.remove('show_img')
+	})
+}

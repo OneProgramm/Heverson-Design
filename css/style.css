@@ -164,7 +164,7 @@ header{
 
 /* -------- portifolio */
 
-.backgropund-portifolio{
+.background-portifolio{
     background-image: url("../img/geral/background-reverso.jpg");
     background-size: 100% 100%;
     transition:all 0.5s ease-in-out;
@@ -191,33 +191,39 @@ header{
 .accordion-ebj{
     display: flex;
     flex-direction: row;
-    margin-top: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 
 }
 
-img{
+.img img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.imgs{
+.img{
     width: 100px;
     height: 500px;
+    box-shadow: black 5px 1px 10px;
+    cursor: pointer;
     border-radius: 30px;
-    position: relative;
     margin-right: 15px;
     overflow: hidden;
+    position: relative;
+    transition: 200ms ease-in-out width;
 }
 
-.imgs::before{
+.img::before{
     content: "";
     position: absolute;
     inset: 0;
     background-color: rgba(0, 0, 0, 0.8);
+    transition: 200ms ease-in-out background-color;
 }
 
-.imgs h1{
+.img h1{
     color: white;
     position: absolute;
     text-align: center;
@@ -229,20 +235,23 @@ img{
     text-transform: uppercase;
     letter-spacing: 6px;
     text-shadow: 0 0 1rem black;
+    transition: 200ms ease-in-out transform,
+    200ms ease-in-out font-size,
+    200ms ease-in-out bottom,
+    200ms ease-in-out right;
 
 }
 
-.imgs .show_img{
+.img.show_img{
     width: 500px;
+}
+
+.img.show_img::before{
+    background-color: rgba(0, 0, 0, .0);
 
 }
 
-.imgs .show_img::before{
-    background-color: black;
-
-}
-
-.imgs .show_img h1{
+.img.show_img h1{
     transform: translate(0, 0) rotate(0);
     font-size: 20px;
     bottom: 20px;
