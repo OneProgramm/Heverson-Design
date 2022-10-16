@@ -1,0 +1,67 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(12, 12, 211) , rgb(10, 10, 59), transparent);
+}
+.container{
+    color: white;
+    width: 100vh;
+}
+
+.linha1{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.linha2{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header1{
+    height: 35px;
+    background-color: black;
+    display: flex;
+    text-align: center;
+}
+
+.header2{
+    height: 35px;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    text-align: center;
+}
+
+.saude1{
+    width: 400px;
+    height: 250px;
+    background-color: red;
+    margin: 0px 30px;
+    
+}
+
+.saude2{
+    width: 400px;
+    height: 250px;
+    background-color: blue;
+    margin: 0px 30px;
+}
+
+.saude1 p{
+    margin: 12px 10px 0px 10px;
+    text-align: justify;
+}
+
+.saude2 p{
+    margin: 12px 10px 0px 10px;
+    text-align: justify;
+}
+
+

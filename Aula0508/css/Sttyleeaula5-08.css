@@ -1,0 +1,23 @@
+.ver {color:#FF0000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;}
+
+    .azul {color: #0000FF;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 35px;}
+
+        .laran {color: 	#FF4500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;}
+    
+    .turque { color: #40E0D0;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;}
+
+.conteiner{width: 200px;   /* define o comprimento */
+height: 200px;    /* define altura */
+background-color: #0000FF;
+margin-left: 200px;
+margin-top: 80px;
+
+}

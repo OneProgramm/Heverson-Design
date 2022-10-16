@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    
+    <title>Heverson Design</title>
+</head>
+<body>
+    <div class="parabens">
+        <canvas id=c></canvas>
+            <button>
+                click aqui
+            </button>
+    </div>
+    <script>
+        var parabens = document.querySelector('.parabens');
+        var button = document.querySelector('.parabens button');
+        button.addEventListener('click', sumir )
+        function sumir(){ 
+            parabens.outerHTML = '' 
+            document.body.style.overflowY = 'scroll';
+        }
+
+        setTimeout(mostrarButton, 20000);
+        function mostrarButton(){
+           button.style.display = 'block';
+        }
+    </script>
+    <div>
+                <!-- Inicio Nav Menu -->
+        <header>
+            <div class="logo-cabecalho">
+                <a href="#perfil">  <img src="img/geral/logoHev.png" alt="logomarca heverson design"></a>
+            </div>
+            <nav class="menu">
+                <ul class="nav-bar">
+                    <li><a href="#portifolio">Portifólio</a></li>
+                    <!-- <li><a href="#null">null</a></li> -->
+                    <li><a href="#form">Orçamento</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+                <!-- Inicio Perfil -->
+
+        <section id="perfil" class="backgropund-perfil">
+            <div class="centralizar-perfil">
+                <div class="img-perfil">
+                    <img src="img/geral/imgperfil.jpg" alt="">
+                </div>
+                <div class="flex-perfil">
+                    <div class="transp-perfil">
+                        <h2>Olá sou Heverson Viktor</h2>
+                        <h3>Sigam minhas redes sociais.</h2>
+                    </div>
+                    
+                    <div class="ico-rede-social">
+                        <div class="grow">
+                            <a class="be" href="https://www.behance.net/heversondesigner" target="_blank"><i class="fa-brands fa-square-behance"></i></a>
+                        </div>
+                        <div class="grow">
+                            <a class="inst" href="https://www.instagram.com/heversondesigner/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="grow">
+                            <a class="yout" href="https://www.youtube.com/channel/UCZOYF_6HiaAh6722728fbXg" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        
+                <!-- Inicio Portifolio -->
+
+        <section id="portifolio" class="backgropund-portifolio">
+            <div class="portifolio">
+                <div class="accordion-ebj">
+                    <div class="imgs show_img">
+                        <img src="img/imgPortifoilo/91d537144722537.629112ec723dc.png" alt="">
+                        <h1>imagem 01</h1>
+                    </div>
+                    <div class="imgs show_img">
+                        <img src="img/imgPortifoilo/91d537144722537.629112ec723dc.png" alt="">
+                        <h1>imagem 03</h1>
+                    </div>
+                    <div class="imgs show_img">
+                        <img src="img/imgPortifoilo/d6cd5d144722537.629112ed99c4f.gif" alt="">
+                        <h1>imagem 02</h1>
+                    </div>
+                </div>
+                <!-- <div class="accordion-ebj">
+                    <div class="imgs show_img">
+                        <img src="img/imgPortifoilo/91d537144722537.629112ec723dc.png" alt="">
+                        <h1>imagem 01</h1>
+                    </div>
+                    <div class="imgs show_img">
+                        <img src="img/imgPortifoilo/91d537144722537.629112ec723dc.png" alt="">
+                        <h1>imagem 03</h1>
+                    </div>
+                    <div class="imgs show_img">
+                        <img src="img/imgPortifoilo/d6cd5d144722537.629112ed99c4f.gif" alt="">
+                        <h1>imagem 02</h1>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="form" class="container-form">
+          
+        </section>
+
+      
+
+                <!-- Footer -->
+        <footer><p>Todos os direitos autorais by Sidney Lima 2022</p> </footer>
+    </div>
+
+    <script src="index.js"></script>
+
+    <script src="https://kit.fontawesome.com/b831005dec.js" crossorigin="anonymous"></script>
+</body>
+</html>
